@@ -1,0 +1,174 @@
+.main-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+}
+
+header {
+  margin-top: 5%;
+  margin-right: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin-right: 50px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.add-button {
+  border: none;
+  background-color: white;
+}
+
+.add-button :hover {
+  background-color: #d1750b;
+  cursor: pointer;
+}
+
+button {
+  border: none;
+  background-color: rgba(255, 251, 229, 1);
+  padding-left: 13px;
+}
+
+button :hover {
+  cursor: pointer;
+}
+
+.task-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 60px;
+}
+
+main {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 100%;
+  margin-left: 130px;
+  margin-right: 130px;
+}
+
+.to-do-container {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  background-color: rgba(255, 251, 229, 1);
+  margin-bottom: 40px;
+  width: 500px;
+  max-width: 500px;
+  box-sizing: border-box;
+  height: max-content;
+}
+
+.title-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 12px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.goal-wrapper {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  max-height: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.popupTitle {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.inputTitle {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  justify-content: left;
+}
+
+.titleInput {
+  width: 500px;
+  height: 50px;
+  background: #d8e6eb;
+  padding: 16px 14px;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.descriptionInput {
+  width: 500px;
+  height: 120px;
+  background: #d8e6eb;
+  border: none;
+  margin-top: 10px;
+  padding: 16px 14px 10px;
+}
+
+.saveButtonContainer {
+  display: flex;
+  justify-content: end;
+}
+
+.saveButton {
+  margin-top: 20px;
+  width: 120px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: #0ba0d1;
+  color: white;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.close {
+  color: Black;
+  float: right;
+}
+
+.close:hover {
+  color: cyan;
+  cursor: pointer;
+}
+.description-wrapper p {
+  box-sizing: border-box;
+  word-break: break-all;
+}
